@@ -1,0 +1,137 @@
+#dashboard-body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0px;
+  display: flex;
+  box-sizing: border-box;
+}
+ .column {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#left {
+  flex-shrink: 0;
+  width: 10%;
+
+  background: rgb(250, 250, 250);
+}
+#right {
+  flex-shrink: 0;
+  width: 90%;
+
+  background: rgb(250, 250, 250);
+}
+
+.top-left {
+  flex-shrink: 0;
+  height: 10%;
+}
+
+.top-right {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+}
+
+.right-bottom {
+  background: rgb(240, 231, 231);
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  line-height: 90%;
+  margin: 5px;
+}
+.container-items {
+  background: rgb(250, 250, 250);
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  width: 228px;
+  height: 228px;
+  line-height: 228px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  position: relative;
+
+}
+#user {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  transform: translateX(20%);
+}
+#h1 {
+  position: relative;
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: solid;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: royalblue;
+  text-decoration-thickness: 5px;
+  color: rgb(214, 145, 16);
+}
+span {
+  flex:1 1 auto;
+}
+#logout{
+  background: #3399aa;
+  width: 90px;
+  height: 34px;
+  border-radius: 4px;
+  margin: 0px, 10px, 10px, 0px;
+  transition: 0.3s;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0px;
+  transform: translateX(-4%);
+}
+.links {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  color: rgb(102, 116, 117);
+  text-decoration: none;
+  font-size: 17px;
+}
+.links:hover {
+  background-color: rgba(100, 100, 100, 0.671);
+}
+
+#avatar{
+  width: 40%;
+  height: 40%;
+  transform: translateX(0%);
+  transform: translateY(5%);
+  border-radius:50%;
+}
+#play{
+  width: 40%;
+  height: 40%;
+  transform: translateX(80%);
+}
+#dot{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+#star{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#mail{
+    position: absolute;
+    bottom: 30px;
+    left: 5px;
+}
+
