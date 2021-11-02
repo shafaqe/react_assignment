@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/shafaqe/react-assignment-updated/static/css/main.b9532bb2.chunk.css",
-    "main.js": "/shafaqe/react-assignment-updated/static/js/main.3ceecac0.chunk.js",
-    "main.js.map": "/shafaqe/react-assignment-updated/static/js/main.3ceecac0.chunk.js.map",
-    "runtime-main.js": "/shafaqe/react-assignment-updated/static/js/runtime-main.de2091cb.js",
-    "runtime-main.js.map": "/shafaqe/react-assignment-updated/static/js/runtime-main.de2091cb.js.map",
-    "static/js/2.8e163bf3.chunk.js": "/shafaqe/react-assignment-updated/static/js/2.8e163bf3.chunk.js",
-    "static/js/2.8e163bf3.chunk.js.map": "/shafaqe/react-assignment-updated/static/js/2.8e163bf3.chunk.js.map",
-    "static/js/3.6e7ade47.chunk.js": "/shafaqe/react-assignment-updated/static/js/3.6e7ade47.chunk.js",
-    "static/js/3.6e7ade47.chunk.js.map": "/shafaqe/react-assignment-updated/static/js/3.6e7ade47.chunk.js.map",
-    "index.html": "/shafaqe/react-assignment-updated/index.html",
-    "static/css/main.b9532bb2.chunk.css.map": "/shafaqe/react-assignment-updated/static/css/main.b9532bb2.chunk.css.map",
-    "static/js/2.8e163bf3.chunk.js.LICENSE.txt": "/shafaqe/react-assignment-updated/static/js/2.8e163bf3.chunk.js.LICENSE.txt",
-    "static/media/01.d5026e38.jpg": "/shafaqe/react-assignment-updated/static/media/01.d5026e38.jpg",
-    "static/media/02.e3426df1.jpg": "/shafaqe/react-assignment-updated/static/media/02.e3426df1.jpg",
-    "static/media/avatar.c702a62a.png": "/shafaqe/react-assignment-updated/static/media/avatar.c702a62a.png",
-    "static/media/play.28598066.png": "/shafaqe/react-assignment-updated/static/media/play.28598066.png"
+    "main.css": "/react-assignment-updated/static/css/main.b9532bb2.chunk.css",
+    "main.js": "/react-assignment-updated/static/js/main.3ceecac0.chunk.js",
+    "main.js.map": "/react-assignment-updated/static/js/main.3ceecac0.chunk.js.map",
+    "runtime-main.js": "/react-assignment-updated/static/js/runtime-main.debd87e8.js",
+    "runtime-main.js.map": "/react-assignment-updated/static/js/runtime-main.debd87e8.js.map",
+    "static/js/2.6fe2da49.chunk.js": "/react-assignment-updated/static/js/2.6fe2da49.chunk.js",
+    "static/js/2.6fe2da49.chunk.js.map": "/react-assignment-updated/static/js/2.6fe2da49.chunk.js.map",
+    "static/js/3.6e7ade47.chunk.js": "/react-assignment-updated/static/js/3.6e7ade47.chunk.js",
+    "static/js/3.6e7ade47.chunk.js.map": "/react-assignment-updated/static/js/3.6e7ade47.chunk.js.map",
+    "index.html": "/react-assignment-updated/index.html",
+    "static/css/main.b9532bb2.chunk.css.map": "/react-assignment-updated/static/css/main.b9532bb2.chunk.css.map",
+    "static/js/2.6fe2da49.chunk.js.LICENSE.txt": "/react-assignment-updated/static/js/2.6fe2da49.chunk.js.LICENSE.txt",
+    "static/media/01.d5026e38.jpg": "/react-assignment-updated/static/media/01.d5026e38.jpg",
+    "static/media/02.e3426df1.jpg": "/react-assignment-updated/static/media/02.e3426df1.jpg",
+    "static/media/avatar.c702a62a.png": "/react-assignment-updated/static/media/avatar.c702a62a.png",
+    "static/media/play.28598066.png": "/react-assignment-updated/static/media/play.28598066.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.de2091cb.js",
-    "static/js/2.8e163bf3.chunk.js",
+    "static/js/runtime-main.debd87e8.js",
+    "static/js/2.6fe2da49.chunk.js",
     "static/css/main.b9532bb2.chunk.css",
     "static/js/main.3ceecac0.chunk.js"
   ]
