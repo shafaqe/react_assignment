@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { initializeApp } from 'firebase/app';
+import { initializeApp, } from 'firebase/app';
+import {getFirestore} from 'firebase/firestore'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import Login from './components/Login';
 import Signup from './components/Signup';
-import { getAuth, onAuthStateChanged } from '@firebase/auth';
+import { getAuth, onAuthStateChanged, } from '@firebase/auth';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAcgq_tYiMDjPzgp63yyI97sY75Cn2Lwdg',
@@ -14,13 +15,14 @@ const firebaseConfig = {
   messagingSenderId: '1068667680525',
   appId: '1:1068667680525:web:4346899811eb252d462244',
 };
-initializeApp(firebaseConfig);
 
+initializeApp(firebaseConfig);
 function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
     const auth = getAuth();
+    const db = getFirestore();
     onAuthStateChanged(auth, (user) => {
       setUser(user);
     });
@@ -31,8 +33,8 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Login} />
-          <Route path='/signup' component={Signup} />
-          <Route path='/dashboard' component={Dashboard} />
+          <Route path='/Signup' component={Signup} />
+          <Route path='/Dashboard' component={Dashboard} />
         </Switch>
       </BrowserRouter>
     </div>

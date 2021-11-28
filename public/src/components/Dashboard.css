@@ -18,7 +18,7 @@
 }
 #right {
   flex-shrink: 0;
-  width: 95%;
+  width: 90%;
 }
 
 .top-left {
@@ -115,9 +115,9 @@ span {
   border-radius: 50%;
 }
 #play {
-  width: 90%;
-  height: 45%;
-  transform: translateX(20%);
+  width: 40%;
+  height: 40%;
+  transform: translateX(80%);
 }
 #dot {
   position: absolute;

@@ -154,10 +154,10 @@ const Signup = ({ history }) => {
           setEmailError(<Sad id='mail-emoj-nve' />);
         }
         if (password !== '') {
-          setPasswordError(<Happy id='pass-emoj-pve' />);
+          setPasswordError(<Happy id='pass-emoj-nve' />);
         } else {
           // setPasswordError(<h5>(Hey you forgot to create the password)</h5>);
-          setPasswordError(<Sad id='pass-emoj-nve' />);
+          setPasswordError(<Sad id='pass-emoj-ve' />);
         }
       });
   };

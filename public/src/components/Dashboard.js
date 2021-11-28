@@ -109,23 +109,7 @@ const Dashboard = ({ history }) => {
                 <MoreVertIcon id='dot' fontSize='small' />
                 <StarBorderIcon id='star' fontSize='small' />
                 <img id='avatar' src={image} alt='avatar' />
-                <MailOutlineIcon id='mail' fontSize='small' />
-              </div>
-            </div>
-            <div class='container-items'>
-              <div>
-                <MoreVertIcon id='dot' fontSize='small' />
-                <StarBorderIcon id='star' fontSize='small' />
-                <img id='avatar' src={image} alt='avatar' />
-                <MailOutlineIcon id='mail' fontSize='small' />
-              </div>
-            </div>
-            <div class='container-items'>
-              <div>
-                <MoreVertIcon id='dot' fontSize='small' />
-                <StarBorderIcon id='star' fontSize='small' />
-                <img id='avatar' src={image} alt='avatar' />
-                <MailOutlineIcon id='mail' fontSize='small' />
+                <MailOutlineIcon id='mail' fontSize='small'/>
               </div>
             </div>
             <div class='container-items'>
